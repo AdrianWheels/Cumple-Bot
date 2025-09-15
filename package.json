@@ -1,0 +1,16 @@
+{
+  "name": "cumple-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Daily birthday bot for X/Twitter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dry": "node index.js --dry-run",
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "twitter-api-v2": "^1.15.0"
+  }
+}
